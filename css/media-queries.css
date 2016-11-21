@@ -1,0 +1,185 @@
+@media (max-width: 1920px) { 
+	
+}
+
+/* #1- Large desktop */
+@media (max-width: 1420px) { 
+	
+}
+
+@media (max-width: 1200px) { 
+	.advantage, .contact {
+		width: 1000px;
+	}
+
+	.advantage-wrap {
+		height: 960px;
+	}
+
+	.advantage-block.first {
+		top: 220px;
+		left: 140px;
+	}
+
+	.advantage-block.second {
+		top: 220px;
+		left: 580px;
+	}
+
+	.advantage-block.third {
+		top: 445px;
+		left: 140px;
+	}
+
+	.advantage-block.fore {
+		top: 445px;
+		left: 580px;
+	}
+
+	.advantage-block.five {
+		top: 685px;
+		left: 140px;
+	}
+
+	.advantage-block.six {
+		top: 685px;
+		left: 580px;
+	}
+	
+}
+
+/* #2- Desktop */
+@media (max-width: 1044px) { 
+	.instruction {
+		width: 50%;
+		min-width: 465px;
+	}
+
+	.instruction h2 {
+		width: auto;
+	} 
+
+	.block-item p {
+		margin-left: 0px;
+	}
+
+	.block-item {
+		display: inline-block;
+		width:160px;
+		text-align: center;
+		vertical-align: top;
+		margin-bottom: 50px;
+	}
+
+	.line.second {
+		display: none;
+	}
+}	
+
+@media (max-width: 960px) {
+
+	.advantage h2,
+	.contact h2 {
+		width: auto;
+	}
+
+	.advantage, .contact {
+		width: 100%;
+	}
+	
+	.advantage-wrap {
+		height: 1360px;
+	}
+
+	.advantage-block.first {
+		top: 150px;
+		left: 35%;
+	}
+
+	.advantage-block.second {
+		top: 350px;
+		left: 35%;
+	}
+
+	.advantage-block.third {
+		top: 550px;
+		left: 35%;
+	}
+
+	.advantage-block.fore {
+		top: 750px;
+		left: 35%;
+	}
+
+	.advantage-block.five {
+		top: 950px;
+		left: 35%;
+	}
+
+	.advantage-block.six {
+		top: 1150px;
+		left: 35%;
+	}
+}
+
+/* #3- Portrait tablet to landscape and desktop */
+@media (max-width: 500px) {
+	.instruction {
+		width: 100%;
+		min-width: 200px;
+		padding-left: 0;
+	}
+
+	.block-item {
+		width:100%;
+		margin-bottom: 50px;
+	}
+
+	.block-item img {
+		float: none;
+		padding-left: 40px;
+	}
+
+	.block-item p {
+		width: 72%;
+	}
+
+	.line {
+		display: none;
+	}
+
+	.advantage-wrap {
+		height: 1460px;
+	}
+
+	.advantage-block.first {
+		top: 200px;
+		left: 18%;
+	}
+
+	.advantage-block.second {
+		top: 400px;
+		left: 18%;
+	}
+
+	.advantage-block.third {
+		top: 600px;
+		left: 18%;
+	}
+
+	.advantage-block.fore {
+		top: 800px;
+		left: 18%;
+	}
+
+	.advantage-block.five {
+		top: 1000px;
+		left: 18%;
+	}
+
+	.advantage-block.six {
+		top: 1200px;
+		left: 18%;
+	}
+}
+
